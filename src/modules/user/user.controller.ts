@@ -10,7 +10,6 @@ export class UserController {
     const users = this.userService.getUsers();
     return users;
   }
-  
 
   @Post("create")
   async createUser(
